@@ -1,0 +1,21 @@
+class HarshadNo
+{
+
+public static void main(String[] args)
+{
+int num =12;
+int last;
+int sum =0;
+while (num!=0)
+{
+last = num % 10;
+ sum = sum + last;
+
+
+}
+
+System.out.println(sum);
+
+}
+
+}
